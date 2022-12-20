@@ -1,0 +1,185 @@
+ // Request life cycle
+  The request life cycle begins at the start block and completes at the End block. when the request 
+  is created , only statuses connected to the start are displayed to the user. similarly the request 
+  flow is considered to be closed only when the request reaches a status connected to the End block.
+ // Atomic Design?
+    Atomic design is methodology for creating design systems . There are Five distinct levels in
+    atomic design:
+   1. Atoms
+   2. Molecules
+   3. Organisms
+   4. Templates
+   5. Pages
+
+//what are semantic elements ?what is use of it?
+
+.A semantic element clearly describes its meaning to both the browser and the developer.
+
+ semantic elements in html are
+ article,
+ aside,
+ details,   
+ figcaption,
+ figure,
+ footer,
+ header,
+ main,
+ mark,
+ nav,
+ section,
+ summary,
+ time.
+ semantic elemens that can be used to define different parts of aweb page
+ // DOM 
+  The HTML DOM is an Object Model for HTML. it defines :
+ . HTML elements as objects .
+ . Properties for all HTML elements.
+ . Methods for all HTML elements.
+ . Events for all HTML elements .
+   
+ // what are html apis?
+
+  HTML APIs are..   
+ 1.HTML geolocation
+ 2.HTML drag /drop  
+ 3.HTML web storage 
+ 4.HTML Web workers
+ 5.HTML SSE
+
+                           CSS 
+ //  CSS specificity is only important when multiple selectors affect the same element .
+    The browser needs a way to figure out what style to apply to a matching element
+    when there are conflicting property values and CSS specificity is the way it does that.
+ 
+ // cssom (CSS Object Model )
+   The CSS Object Model is a set API's allowing the manipulation of CSS from java script .It is 
+   much like the DOM, but for the CSS rather than the HTML . It allows users to read and modify
+   CSS style dynamically .
+ 
+ //Preprocessors 
+   CSS preprocessors compile the code which is written usind aspecial compiler. They then use that 
+   to create a CSS file, which can then be referrenced by the main HTML document . when using any  
+   any  CSS Preprocessors ,you will be able to program in normal CSS just as you would if the pre
+   processors were not in place. 
+
+ // Animation SVG 
+    SVG ( Scalable Vector Graphics ).
+    SVG is an XML- based format that allows you to create an image by using defined tags and attributes.
+    Your code will render an image that you can edit right in your code editor. 
+    We can use SVG on the web in two ways. We can use the SVG files as the src attribute of <img> tags.
+    or like you would do with PNGs and JPEGs.
+    
+ // What are session and local storage?
+
+ 1. local storage stores data with no expiration date
+ 2. session storage stores data for one session (data is lost when 
+     the browser tab is closed)
+
+//what are pseudo selector?
+
+.In css pseudo-class is a keyword added to a selector that specifies
+ a special state of the selected elements 
+
+// Explain position?
+ .The position property specifies the type of positioning method used for an element .   
+ .There are five position values :
+
+ 1.static
+ 2.relative
+ 3.fixed
+ 4.absolute 
+ 5.sticky
+
+ // what is borderbox and box-sizing?
+ => The css box-sizing property allows us to include the padding 
+   and border in an elements total width and height.
+
+                             JAVASCRIPT
+ // Variables
+     Variables are containers for storing data (storing data values).
+     4 ways to declare  a java script variable.
+    . using var
+    . using let
+    . using const
+    . using nothing
+ // Scope
+   Scope determines the accessibility of variables.
+   JavaScript  has 3 types of scope:
+  . Block scope
+  . Function scope
+  . Global scope
+ //Operators
+   JavaScript operators are symbols that are used to perform operations
+   on operands. 
+   There are following types in JavaScript:
+   1. Arithmetic Operators 
+   2. Copmparision (relational) Operators
+   3. Bitwise OPerators.
+   4. Logical Operators.
+   5. Assignment Operators. 
+   6. Special Operators .
+ //Arrays
+   An array is a special variable, which can hold more than one value:
+   An array can hold many values under a single name , and you can access
+   the values by reffering to an index number. 
+ 
+    
+ // call, apply, bind
+  
+  .call()
+  with the call() method , takes arguments separatly. the apply() method
+  takes arguments as an array.
+  .apply()
+  with this method , you can write a method that can 
+  be used on different objects.
+  .bind()
+   An object can borrow a method from another object.  
+
+ //if Statement
+   if statement to specify a block of javascript code to be executed
+   if a condition is true. 
+ // error handling
+   JavaScript provides error-handling mechanism to catch runtime errors
+   using runtime errors using try-catch-finally block 
+
+// async/await
+ . async and await make promises easier to write
+ =>async makes a function returns a promise.
+ =>await makes a function wait for a promise.
+ . promises
+ => A promise is a javascript object that links producing
+    code and consuming code.  
+ => callback
+  . A callback is a function passed as an argument to another function.
+  . This technique allows a function to call another function.
+  . A callback function can run after another funciton has finished.
+
+// callback hell
+  .callbackhell is also known as pyramid of doom, is an anti-pattern seen
+   in code of asynchronus programming.
+// map, filter ,reduce
+ => map
+ . A map holds key-value pairs where the keys can be any datatype.  
+ .A map remembers the original insertion order of the keys.
+ => filter
+  . This method creates a new array filled with elements that pass a test provided by a function 
+     and does not execute the function for empty elements and does not change the original array.
+  => reduce 
+  . The reduce() method executes a reducer function for array element . 
+  . This method does not change the original array.
+
+
+// spread operator?
+Spread operator (...)allows us to quickly copy all or part of an existing array .
+
+//ES6 features.
+
+ .let keyword
+ .const keyword
+ .map objects
+ .set objects
+ .arrow functions 
+ .classes
+ .promises
+ .symbol
+ .object entries and etc ..
